@@ -32,24 +32,24 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState); // call superclass onCreate
         setContentView(R.layout.activity_main); // inflate the GUI
-
-        // get references to programmatically manipulated TextViews
-        amountTextView = (TextView) findViewById(R.id.amountTextView);
-        percentTextView = (TextView) findViewById(R.id.percentTextView);
-        tipTextView = (TextView) findViewById(R.id.tipTextView);
-        totalTextView = (TextView) findViewById(R.id.totalTextView);
-        tipTextView.setText(currencyFormat.format(0));
-        totalTextView.setText(currencyFormat.format(0));
-
-        // set amountEditText's TextWatcher
-        EditText amountEditText =
-                (EditText) findViewById(R.id.amountEditText);
-        amountEditText.addTextChangedListener(amountEditTextWatcher);
-
-        // set percentSeekBar's OnSeekBarChangeListener
-        SeekBar percentSeekBar =
-                (SeekBar) findViewById(R.id.percentSeekBar);
-        percentSeekBar.setOnSeekBarChangeListener(seekBarListener);
+//
+//        // get references to programmatically manipulated TextViews
+//        amountTextView = (TextView) findViewById(R.id.amountTextView);
+//        percentTextView = (TextView) findViewById(R.id.percentTextView);
+//        tipTextView = (TextView) findViewById(R.id.tipTextView);
+//        totalTextView = (TextView) findViewById(R.id.totalTextView);
+//        tipTextView.setText(currencyFormat.format(0));
+//        totalTextView.setText(currencyFormat.format(0));
+//
+//        // set amountEditText's TextWatcher
+//        EditText amountEditText =
+//                (EditText) findViewById(R.id.amountEditText);
+//        amountEditText.addTextChangedListener(amountEditTextWatcher);
+//
+//        // set percentSeekBar's OnSeekBarChangeListener
+//        SeekBar percentSeekBar =
+//                (SeekBar) findViewById(R.id.percentSeekBar);
+//        percentSeekBar.setOnSeekBarChangeListener(seekBarListener);
     }
 
     // calculate and display tip and total amounts
