@@ -3,16 +3,11 @@ package com.example.tipper;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
-import android.text.Editable; // for EditText event handling
-import android.text.TextWatcher; // EditText listener
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText; // for bill amount input
-import android.widget.SeekBar; // for changing the tip percentage
-import android.widget.SeekBar.OnSeekBarChangeListener; // SeekBar listener
 import android.widget.TextView; // for displaying text
 
-import java.text.NumberFormat; // for currency formatting
 
 public class MainActivity extends AppCompatActivity {
 
@@ -26,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState); // call superclass onCreate
-        setContentView(R.layout.activity_main); // inflate the GUI
+        setContentView(R.layout.bmi_layout); // inflate the GUI
 
         editTextWeight = findViewById(R.id.weight);
         editTextHeight = findViewById(R.id.height);

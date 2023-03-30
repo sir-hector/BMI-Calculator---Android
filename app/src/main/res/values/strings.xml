@@ -1,6 +1,10 @@
 <resources>
-   <string name="app_name">BMI Calculator</string>
+   <string name="app_name">Health App</string>
    <string name="weightInput">Enter your weight in [KG]</string>
    <string name="heightInput">Enter your height in [CM]</string>
    <string name="submit">Submit</string>
+   <string name="bmi_panel">Calculate BMI</string>
+   <string name="calorie_calculator_panel">Calorie Calculator</string>
+   <string name="recipies_panel">Recipies</string>
+   <string name="back">Back</string>
 </resources>
