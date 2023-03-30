@@ -58,7 +58,7 @@
             android:layout_height="wrap_content"
             android:hint="@string/heightInput"/>
     </com.google.android.material.textfield.TextInputLayout>
-    
+
 
     <RadioGroup
         android:layout_width="wrap_content"

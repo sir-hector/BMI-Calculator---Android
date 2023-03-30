@@ -7,6 +7,8 @@
    <string name="bmi_panel">Calculate BMI</string>
    <string name="calorie_calculator_panel">Calorie Calculator</string>
    <string name="recipies_panel">Recipies</string>
+   <string name="recipies_first">First Recipe</string>
+   <string name="recipies_second">Second Recipe</string>
    <string name="man">Man</string>
    <string name="woman">Woman</string>
    <string name="back">Back</string>
