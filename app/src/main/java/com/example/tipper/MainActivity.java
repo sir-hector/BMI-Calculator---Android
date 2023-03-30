@@ -23,6 +23,8 @@ public class MainActivity extends AppCompatActivity {
 
 
         bmiButton = findViewById(R.id.bmi_panel);
+        caloriesButton = findViewById(R.id.calories_panel);
+        recipiesButton = findViewById(R.id.recipies_panel);
 
         bmiButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -30,9 +32,30 @@ public class MainActivity extends AppCompatActivity {
                 launchBmiCalculator();
             }
         });
+        caloriesButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                launchCalories();
+            }
+        });
+        recipiesButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                launchRecipies();
+            }
+        });
+
     }
     private void launchBmiCalculator(){
         Intent intent = new Intent(this, BmiAcitvity.class);
+        startActivity(intent);
+    }
+    private void launchCalories(){
+        Intent intent = new Intent(this, CaloriesActivity.class);
+        startActivity(intent);
+    }
+    private void launchRecipies(){
+        Intent intent = new Intent(this, RecipiesActivity.class);
         startActivity(intent);
     }
 
