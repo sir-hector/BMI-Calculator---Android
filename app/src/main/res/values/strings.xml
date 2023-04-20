@@ -12,4 +12,5 @@
    <string name="man">Man</string>
    <string name="woman">Woman</string>
    <string name="back">Back</string>
+   <string name="quiz">Quiz</string>
 </resources>

@@ -19,6 +19,7 @@
         <activity android:name=".BmiAcitvity"></activity>
         <activity android:name=".CaloriesActivity"></activity>
         <activity android:name=".RecipiesActivity"></activity>
+        <activity android:name=".QuizActivity"></activity>
     </application>
 
 </manifest>
