@@ -48,10 +48,10 @@ public class ChartActivity extends AppCompatActivity {
         ArrayList<LineDataSet> lines = new ArrayList<LineDataSet>();
 
 
-        LineDataSet set3 = new LineDataSet(marathi, "Marathi");
+        LineDataSet set3 = new LineDataSet(marathi, "BMI");
         set3.setDrawFilled(true);
         set3.setFillColor(Color.WHITE);
-        set3.setColor(Color.YELLOW);
+        set3.setColor(Color.BLACK);
         set3.setCircleColor(Color.parseColor("#000000"));
         lines.add(set3);
 
