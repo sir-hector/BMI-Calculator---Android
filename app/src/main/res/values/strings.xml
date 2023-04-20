@@ -12,5 +12,11 @@
    <string name="man">Man</string>
    <string name="woman">Woman</string>
    <string name="back">Back</string>
-   <string name="quiz">Quiz</string>
+   <string name="quiz">Quiz</string>d
+   <string name="totalQuestions">Total Questions</string>
+   <string name="exampleQuestion">ExampleQuestion</string>
+   <string name="answerA">Ans A</string>
+   <string name="answerB">Ans B</string>
+   <string name="answerC">Ans C</string>
+   <string name="answerD">Ans D</string>
 </resources>

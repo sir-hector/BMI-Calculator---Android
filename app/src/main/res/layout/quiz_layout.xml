@@ -12,7 +12,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/total_question"
-        android:text="Total Questions "
+        android:text="@string/totalQuestions"
         android:layout_centerHorizontal="true"
         android:textSize="20dp"/>
 
@@ -22,7 +22,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/question"
         android:textStyle="bold"
-        android:text="This will be the question"
+        android:text="@string/exampleQuestion"
         android:textColor="@color/black"
         android:textSize="24dp"
         android:textAlignment="center"
@@ -43,7 +43,7 @@
             android:id="@+id/ans_A"
             android:layout_margin="5dp"
             android:backgroundTint="@color/amount_background"
-            android:text="Ans A"
+            android:text="@string/answerA"
             android:textColor="@color/black"/>
 
         <Button
@@ -52,7 +52,7 @@
             android:id="@+id/ans_B"
             android:layout_margin="5dp"
             android:backgroundTint="@color/amount_background"
-            android:text="Ans B"
+            android:text="@string/answerB"
             android:textColor="@color/black"/>
 
         <Button
@@ -61,7 +61,7 @@
             android:id="@+id/ans_C"
             android:layout_margin="5dp"
             android:backgroundTint="@color/amount_background"
-            android:text="Ans C"
+            android:text="@string/answerC"
             android:textColor="@color/black"/>
         <Button
             android:layout_width="match_parent"
@@ -69,7 +69,7 @@
             android:id="@+id/ans_D"
             android:layout_margin="5dp"
             android:backgroundTint="@color/amount_background"
-            android:text="Ans D"
+            android:text="@string/answerD"
             android:textColor="@color/black"/>
 
     </LinearLayout>
@@ -78,10 +78,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/submit_btn"
-        android:text="Submit"
+        android:text="@string/submit"
         android:layout_below="@id/choices_layout"
         android:layout_marginTop="40dp"/>
-
-
 
 </RelativeLayout>
