@@ -16,6 +16,7 @@ public class MainActivity extends AppCompatActivity {
     private Button caloriesButton;
     private Button recipiesButton;
     private Button quizButton;
+    private Button chartButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,6 +28,7 @@ public class MainActivity extends AppCompatActivity {
         caloriesButton = findViewById(R.id.calories_panel);
         recipiesButton = findViewById(R.id.recipies_panel);
         quizButton = findViewById(R.id.quiz_button);
+        chartButton = findViewById(R.id.chart_button);
 
         bmiButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -53,6 +55,13 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        chartButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                launchChart();
+            }
+        });
+
     }
     private void launchBmiCalculator(){
         Intent intent = new Intent(this, BmiAcitvity.class);
@@ -69,6 +78,11 @@ public class MainActivity extends AppCompatActivity {
 
     private void launchQuiz(){
         Intent intent = new Intent(this, QuizActivity.class);
+        startActivity(intent);
+    }
+
+    private void launchChart(){
+        Intent intent = new Intent(this, ChartActivity.class);
         startActivity(intent);
     }
 
